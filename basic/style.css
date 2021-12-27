@@ -8,20 +8,24 @@ header {
     text-align: center;
 }
 
-.form {
+main {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.formulario {
     align-items: center;
+    display: flex;
 
 }
 
 .input-padrao {
-        margin:0 231px 20px 98px;
-        padding: 10px 25px;
+        padding: 2px 15px;
         width: 751px;
         height: 45px;
-        top: 115px;
-        left: 98px;
         border-radius: 10px;
         border-color: transparent;
+        margin-right: 15px;
 }
 
 .enviar {
@@ -40,10 +44,60 @@ header {
 .cards li {
     display: inline-block;
     text-align: center;
-    width: 20%;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border: transparent;
     border-radius: 25px;
 }
+
+.card {
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.card h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.pokemon-planta {
+    background-color: #48D0B0;
+
+}
+
+.pokemon-fogo {
+    background-color: #F66C6D;
+}
+
+.pokemon { 
+    width: 151px;
+    height: 151px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon img {
+    width: 122px;
+    height: 122px;
+}
+

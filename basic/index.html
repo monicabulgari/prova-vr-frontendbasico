@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lista de Pokémons</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +22,7 @@
   </header>
 
   <main>
-    <form class="form">
+    <form class="formulario">
       <label for="buscapokemon"></label>
       <input type="text" id="buscapokemon" class="input-padrao" required placeholder="Digite o nome do Pokémon">
       <input type="submit" value="Buscar" class="enviar">
@@ -25,24 +30,40 @@
 
     <ul class="cards">
       <li>
-        <h2>Bulbasaur</h2>
-        <p class="numero_card">#001</p>
-        <img src="images/bulbasaur.png">
+        <div class="pokemon-planta card">
+          <h2>Bulbasaur</h2>
+          <p>#001</p>
+          <div class="pokemon">
+            <img src="images/bulbasaur.png">
+          </div>
+        </div>
       </li>
       <li>
-        <h2>Ivysaur</h2>
-        <p class="numero_card">#002</p>
-        <img src="images/ivysaur.png">
+        <div class="pokemon-planta card">
+          <h2>Ivysaur</h2>
+          <p>#002</p>
+          <div class="pokemon">
+            <img src="images/ivysaur.png">
+          </div>
+        </div>
       </li>
       <li>
-        <h2>Venusaur</h2>
-        <p class="numero_card">#003</p>
-        <img src="images/venusaur.png">
+        <div class="pokemon-planta card">
+          <h2>Venusaur</h2>
+          <p>#003</p>
+          <div class="pokemon">
+            <img src="images/venusaur.png">
+          </div>
+        </div>
       </li>
       <li>
-        <h2>Charmander</h2>
-        <p class="numero_card">#004</p>
-        <img src="images/charmander.png">
+        <div class="pokemon-fogo card">
+          <h2>Charmander</h2>
+          <p>#004</p>
+          <div class="pokemon">
+            <img src="images/charmander.png">
+          </div>
+        </div>
       </li>
     </ul>
 
