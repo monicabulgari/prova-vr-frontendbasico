@@ -38,12 +38,12 @@ main {
         border: none;
         border-radius:10px ;
         cursor:pointer;
-    }
+}
 
 .cards {
     justify-content: space-between;
     display:flex;
-    margin: 40px -20px 0 0;    
+    margin: 40px -20px 0 0;  
     padding: 0 0 0 0;
     width: 940px;
     flex-grow: 1;
@@ -63,7 +63,7 @@ main {
 .card {
     border-radius: 25px;
     text-align: center;
-    padding: 15px;
+    padding: 25px;
     
 }
 
@@ -75,6 +75,7 @@ main {
     line-height: 21px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 1px;
 }
 
 .card p {
@@ -84,7 +85,7 @@ main {
     font-size: 15px;
     line-height: 18px;
     color: rgba(0, 0, 0, 0.42);
-    vertical-align: text-top;
+    margin-top: 0;
 }
 
 .pokemon-planta {
