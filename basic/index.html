@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,46 @@
   <title>Lista de Pokémons</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <!-- Adicione o HTML AQUI -->
+  <header>
+    <h1>
+      <img src="images/logo.svg">
+    </h1>
+  </header>
+
+  <main>
+    <form class="form">
+      <label for="buscapokemon"></label>
+      <input type="text" id="buscapokemon" class="input-padrao" required placeholder="Digite o nome do Pokémon">
+      <input type="submit" value="Buscar" class="enviar">
+    </form>
+
+    <ul class="cards">
+      <li>
+        <h2>Bulbasaur</h2>
+        <p class="numero_card">#001</p>
+        <img src="images/bulbasaur.png">
+      </li>
+      <li>
+        <h2>Ivysaur</h2>
+        <p class="numero_card">#002</p>
+        <img src="images/ivysaur.png">
+      </li>
+      <li>
+        <h2>Venusaur</h2>
+        <p class="numero_card">#003</p>
+        <img src="images/venusaur.png">
+      </li>
+      <li>
+        <h2>Charmander</h2>
+        <p class="numero_card">#004</p>
+        <img src="images/charmander.png">
+      </li>
+    </ul>
+
+  </main>
+
 </body>
+
 </html>

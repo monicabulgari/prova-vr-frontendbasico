@@ -1,1 +1,49 @@
 /* Adicione seu código CSS AQUI */
+body {
+    background: #C6ECED;
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.form {
+    align-items: center;
+
+}
+
+.input-padrao {
+        margin:0 231px 20px 98px;
+        padding: 10px 25px;
+        width: 751px;
+        height: 45px;
+        top: 115px;
+        left: 98px;
+        border-radius: 10px;
+        border-color: transparent;
+}
+
+.enviar {
+        width:15% ;
+        padding: 15px 0;
+        background: #3763AD;
+        color: #FFCB05;
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+        border-radius:10px ;
+        cursor:pointer;
+    }
+
+
+.cards li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 25px;
+}
